@@ -6,8 +6,8 @@ class Counter:
     def increase(self):
         self.value = self.value + 1
 
-    def increment(self, amount):
-        self.value = self.value + amount
+    def set(self, amount):
+        self.value = amount
 
     def decrease(self):
         self.value = self.value - 1
